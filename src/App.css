@@ -1,38 +1,168 @@
+/* General App Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Adds padding on left and right */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar Styles */
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px; /* Adds padding to the navbar */
+  margin-bottom: 20px; /* Adds space below the navbar */
+}
+
+.navbar-logo a {
+  color: rgb(4, 4, 4);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin: 0 15px;
+}
+
+.navbar-menu li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-menu li a:hover {
+  color: #ddd;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  flex-direction: column-reverse; /* Stack vertically for mobile */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px 20px;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: flex;
+  gap:10px;
+  background-color: #ffffff;
+  max-width: fit-content;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: auto;
+}
+
+.cta-button:hover {
+  background-color: #000;
+  color:#ffffff
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.mycv
+{
+  border-bottom: 1px solid #000;
+  /* background-color: #000;
+  color: #fff; */
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px)  {
+  .cta-button {
+    margin: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .hero-section {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .hero-content {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .hero-image {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .App {
+    padding: 0 40px; /* Increase padding on larger screens */
+  }
+
+  .hero-content h1 {
+    font-size: 48px; /* Larger font for bigger screens */
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  .cta-button {
+    font-size: 18px;
   }
 }
