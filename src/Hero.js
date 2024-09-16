@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Avatar from './img/kava.png'
+import gridBG from '/img/grid.svg'
 
 function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section h-[100vh] bg-[`url${gridBG}`] bg-cover bg-center bg-no-repeat">
       <div className="hero-content montserrat-bold">
         <h2 className="montserrat-regular">Hi I'm</h2>
         <h1>Kavya Manoj | UIUX Designer | Glasgow</h1>
