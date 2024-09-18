@@ -21,7 +21,7 @@ function NavBar() {
       <ul className="navbar-menu montserrat-bold p-2 outline outline-2 rounded-xl">
         <li><a href="#work" onClick={(e) => scrollToSection(e, 'work')}>Work</a></li>
         <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
-        <li><a href="https://drive.google.com/file/d/1gGuIJVpoxssUFnSPViq8ZYkPbLx8wUyT/view?usp=sharing" target="_blank"
+        <li><a href="https://drive.google.com/file/d/11dOjXYPGAVRZXlQJiCH4fGDdQ1ZcGJrM/view?usp=sharing" target="_blank"
         rel="noreferrer" className='mycv flex flex-row'>Resume</a></li>
       </ul>
     </nav>
