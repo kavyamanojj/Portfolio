@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  padding: 15px 20px; /* Adds padding to the navbar */
+  padding: 15px 20px; 
   margin-bottom: 20px; /* Adds space below the navbar */
 }
 
@@ -63,13 +63,13 @@ body {
 }
 
 .navbar-menu li a:hover {
-  color: #ddd;
+  color: #cc1d2b;
 }
 
 /* Hero Section Styles */
 .hero-section {
   display: flex;
-  flex-direction: column-reverse; /* Stack vertically for mobile */
+  flex-direction: column-reverse; 
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
@@ -110,12 +110,11 @@ body {
   height: auto;
   border-radius: 10px;
 }
-/* .mycv
+.mycv
 {
   border-bottom: 1px solid #000;
-  /* background-color: #000;
-  color: #fff; */
-
+  
+}
 
 /* Responsive Design */
 @media screen and (min-width: 768px)  {

@@ -8,8 +8,8 @@ import gridBG from './img/grid.svg'
 
 function About() {
   return (
-    <section className="bg-cover bg-center bg-no-repeat" >
-    <div className="About h-[100vh] relative ">
+    <section className="bg-cover bg-center bg-no-repeat" id="about" >
+    <div className="About md:h-[100vh] relative ">
       <div className='bg-grid absolute t-0 w-full h-full -z-10 opacity-50'style={{ backgroundImage: `url(${gridBG})` }} ></div>
         
       <div className='flex flex-col md:flex-row gap-2 h-full justify-center'>
@@ -28,7 +28,7 @@ function About() {
 
       </div>
     </div>
-    <div className="About h-[100vh] relative ">
+    <div className="About md:h-[100vh] relative ">
       <div className='bg-grid absolute t-0 w-full h-full -z-10 opacity-50'style={{ backgroundImage: `url(${gridBG})` }} ></div>
         
       <div className='flex flex-col md:flex-row md:gap-10 h-full justify-center'>

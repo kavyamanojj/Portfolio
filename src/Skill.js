@@ -26,7 +26,7 @@ const Skill = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
+    <section ref={sectionRef} className="grid grid-cols-1 md:h-[300px] md:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
       {skillTitles.map((title, index) => (
         <div 
           key={index} 
