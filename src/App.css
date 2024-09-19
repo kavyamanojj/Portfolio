@@ -27,44 +27,8 @@ body {
 .App {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px; /* Adds padding on left and right */
 }
 
-/* Navbar Styles */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 15px 20px; 
-  margin-bottom: 20px; /* Adds space below the navbar */
-}
-
-.navbar-logo a {
-  color: rgb(4, 4, 4);
-  font-size: 24px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.navbar-menu {
-  list-style: none;
-  display: flex;
-}
-
-.navbar-menu li {
-  margin: 0 15px;
-}
-
-.navbar-menu li a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.navbar-menu li a:hover {
-  color: #cc1d2b;
-}
 
 /* Hero Section Styles */
 .hero-section {
@@ -73,7 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
-  margin-bottom: 40px;
+
 }
 
 /* .hero-content {

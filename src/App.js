@@ -12,8 +12,8 @@ function App() {
 
   return (
     <ReactLenis root>
+        <NavBar />
     <div className="App">
-      <NavBar />
       <Hero />
       <Skill />
       <Figma />
