@@ -21,7 +21,7 @@ function NavBar() {
         <button onClick={(e) => scrollToSection(e, 'home')} className="nav-item cursor-pointer">Home</button>
         <button onClick={(e) => scrollToSection(e, 'work')} className="nav-item cursor-pointer">Projects</button>
         <button onClick={(e) => scrollToSection(e, 'about')} className="nav-item cursor-pointer">About</button>
-        <a href="https://drive.google.com/file/d/11dOjXYPGAVRZXlQJiCH4fGDdQ1ZcGJrM/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-item bg-black text-white/90 hover:bg-[#634a1c] hover:text-white flex flex-row gap-2"><span>Resume</span></a>
+        <a href="https://drive.google.com/file/d/1ilou_yiRzLE-SysCPgukNvpltdADuizc/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-item bg-black text-white/90 hover:bg-[#634a1c] hover:text-white flex flex-row gap-2"><span>Resume</span></a>
       </nav>
     </div>
   );
