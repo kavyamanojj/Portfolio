@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className='text-5xl tracking-tighter md:tracking-normal md:text-7xl flex flex-col'><span className='text-3xl pr-4'>Hi I'm</span><span className="block sm:inline sm:mb-2">Kavya Manoj</span></h1>
         {/* <h3 className='text-xl text-center md:text-left'><span>UIUX Designer | </span><span>Glasgow</span></h3> */}
         <p className='montserrat-regular text-sm md:text-lg max-w-[280px] text-justify md:text-left md:max-w-lg md:leading-7 z-10'>
-        I’m a UI/UX Designer based in Glasgow,  passionate about crafting thoughtful, accessible, and engaging designs that make a difference. I have a keen eye for aesthetics and a love for storytelling. I dive deep into understanding users' needs and emotions to create intuitive and impactful experiences. </p>
+        I’m a UI/UX Designer based in Glasgow,  passionate about crafting thoughtful, accessible, and engaging designs that make a difference.</p>
         <button className="cta-button" onClick={() => window.location.href = 'mailto:kavyamanojj@gmail.com'}>
           <span>👋</span> <span>Say Hello</span></button>
       </div>
